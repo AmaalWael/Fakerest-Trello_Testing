@@ -1,0 +1,114 @@
+873bdcd83a75bf2c25665e8c8f3e23e6836a9186478bf9d67fdd89b38dabe9a4
+
+key:   209b2d6208f354f7c4e0c74529ba3133
+
+token :   72910ee45b59ef23a53bc5f194b6ecb436778be25577ae768bf0989cf4e6dfa9
+
+
+72910ee45b59ef23a53bc5f194b6ecb436778be25577ae768bf0989cf4e6dfa9
+"id": "62f2c3e23e9f604069739e45"
+-----------------------------------------------------------------------------------------------------------------------------
+The first api response 
+{
+    "id": "62f2c3e23e9f604069739e45",
+    "aaId": "62f2c38732850ea2a326339b",
+    "activityBlocked": false,
+    "avatarHash": "98e758d83ed3384fbe1cd90b19620575",
+    "avatarUrl": "https://trello-members.s3.amazonaws.com/62f2c3e23e9f604069739e45/98e758d83ed3384fbe1cd90b19620575",
+    "bio": "",
+    "bioData": null,
+    "confirmed": true,
+    "fullName": "amaal wael",
+    "idEnterprise": null,
+    "idEnterprisesDeactivated": [],
+    "idMemberReferrer": null,
+    "idPremOrgsAdmin": [],
+    "initials": "AW",
+    "memberType": "normal",
+    "nonPublic": {},
+    "nonPublicAvailable": true,
+    "products": [],
+    "url": "https://trello.com/amaalwael1",
+    "username": "amaalwael1",
+    "status": "disconnected",
+    "aaBlockSyncUntil": null,
+    "aaEmail": null,
+    "aaEnrolledDate": null,
+    "avatarSource": "none",
+    "credentialsRemovedCount": 0,
+    "domainClaimed": null,
+    "email": "amaalwael6@gmail.com",
+    "goldSunsetFreeTrialIdOrganization": null,
+    "gravatarHash": "fdb52180091e9dcff3efdf2d9668cb60",
+    "idBoards": [
+        "62f2ca51645f21429cc01f2e"
+    ],
+    "idOrganizations": [
+        "62f2c6b7f08f3d4237010387"
+    ],
+    "idEnterprisesAdmin": [],
+    "limits": {
+        "boards": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 4500,
+                "warnAt": 3600
+            }
+        },
+        "orgs": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 850,
+                "warnAt": 680
+            }
+        }
+    },
+    "loginTypes": [
+        "atlassian"
+    ],
+    "marketingOptIn": {
+        "optedIn": true,
+        "date": "2022-08-09T20:30:28.615Z"
+    },
+    "messagesDismissed": [],
+    "oneTimeMessagesDismissed": [
+        "sent-possible-new-signup-event",
+        "headerMemberMenuAddAccount",
+        "close-menu-of-first-board"
+    ],
+    "prefs": {
+        "privacy": {
+            "fullName": "public",
+            "avatar": "public"
+        },
+        "sendSummaries": true,
+        "minutesBetweenSummaries": 60,
+        "minutesBeforeDeadlineToNotify": 1440,
+        "colorBlind": false,
+        "locale": "en-US"
+    },
+    "trophies": [],
+    "uploadedAvatarHash": null,
+    "uploadedAvatarUrl": null,
+    "premiumFeatures": [
+        "additionalBoardBackgrounds",
+        "additionalStickers",
+        "customBoardBackgrounds",
+        "customEmoji",
+        "customStickers",
+        "plugins"
+    ],
+    "isAaMastered": true,
+    "ixUpdate": "22",
+    "boards": [
+        {
+            "id": "62f2ca51645f21429cc01f2e",
+            "name": "Project Management",
+            "closed": false,
+            "idOrganization": "62f2c6b7f08f3d4237010387",
+            "pinned": false
+        }
+    ]
+}
+------------------------------------------------------------------------------------------------------------------------
+

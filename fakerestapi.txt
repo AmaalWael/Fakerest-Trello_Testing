@@ -1,0 +1,75 @@
+**API: GET /api/v1/Authors
+ Test Case: response should be 200 OK
+ Expected Result: 200 OK
+ Actual Result: 200 OK
+ Status: Pass
+---------------------------------------------------------------------------------------------------- 
+ 
+ ***API: POST/api​/v1​/Authors 
+ Test Case: response should be 201 OK
+ Expected Result: 201 OK
+ Actual Result: 201 OK
+ Status: Pass
+
+
+---------------------------------------------------------------------------------------------------- 
+**API: PUT/api​/v1​/Authors​/{id} /* with add id & the new created parameter*/
+ Test Case: response should be 201 OK
+ Expected Result: 201 OK
+ Actual Result: 200 OK
+ Status: Pass without add it to database 
+ {
+  "id": 5,
+  "idBook": 3,
+  "firstName": "Amaal",
+  "lastName": "Wael"
+}
+ 
+----------------------------------------------------------------------------------------------------
+ **API:Get/api​/v1​/Authors​/authors​/books​/{2}
+Test Case : Objects inside response contain, id, idBook, firstName, lastName. 
+
+[
+  {
+    "id": 3,
+    "idBook": 2,
+    "firstName": "First Name 3",
+    "lastName": "Last Name 3"
+  },
+  {
+    "id": 4,
+    "idBook": 2,
+    "firstName": "First Name 4",
+    "lastName": "Last Name 4"
+  }
+]
+Expected Result: 200 OK
+ Actual Result: 200 OK
+ Status: Pass
+ 
+ ----------------------------------------------------------------------------------------------------
+****API:Get/api​/v1​/Authors​/{2}  
+Test Case : Objects inside response contain, id, idBook, firstName, lastName. 
+Expected Result: 200 OK
+ Actual Result: 200 OK
+ Status: Pass
+ {
+  "id": 2,
+  "idBook": 1,
+  "firstName": "First Name 2",
+  "lastName": "Last Name 2"
+}
+----------------------------------------------------------------------------------------------------
+ 
+ ****API:Get/api​/v1​/Authors​/authors​/books​/{2000}  /* check with invalid id book*/
+Test Case : Objects inside response contain, id, idBook, firstName, lastName. 
+Expected Result: 200 OK
+ Actual Result: 200 OK
+ Status: Pass
+ the result is empty array []
+
+ 
+ 
+
+ 
+ 
